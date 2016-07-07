@@ -85,9 +85,6 @@ namespace SendGridCore.Controllers
 
             }
 
-
-            // todo Add User Secrets for the API Keys
-
             return new OkResult(); 
         }
     }
