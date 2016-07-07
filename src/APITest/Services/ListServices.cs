@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace APITest.Services
+namespace SendGridCore.Services
 {
     public class ListServices
     {

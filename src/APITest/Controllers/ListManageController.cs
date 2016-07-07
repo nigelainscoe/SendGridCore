@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using APITest.Services;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
+using SendGridCore.Services;
 
-namespace APITest.Controllers
+namespace SendGridCore.Controllers
 {
     [Route("api/[controller]")]
     public class ListManageController

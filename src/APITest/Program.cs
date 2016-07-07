@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace APITest
+namespace SendGridCore
 {
     public class Program
     {

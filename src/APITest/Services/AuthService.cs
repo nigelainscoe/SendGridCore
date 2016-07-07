@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace APITest.Services
+namespace SendGridCore.Services
 {
     public interface IAuthService
     {
@@ -16,9 +16,9 @@ namespace APITest.Services
 
         public AuthService(IConfiguration configuration)
         {
-            _apikey = configuration["SendGrid:ApiKey"];
-            _authorisationMethod = configuration["SendGrid:Authorization"];
-            _listToManage = configuration["SendGrid:ListToManage"];
+            _apikey = configuration["ApiKey"];
+            _authorisationMethod = configuration["Authorization"];
+            _listToManage = configuration["ListToManage"];
 
         }
 
